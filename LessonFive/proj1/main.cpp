@@ -18,7 +18,9 @@ public:
         return count;
     }
 };
+
 int student::count = 0;
+
 int main()
 {
     int t = 10;
