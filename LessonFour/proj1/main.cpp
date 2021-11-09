@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 class complex{
 private:
     double r;
@@ -26,6 +27,7 @@ public:
             cout<<"+"<<this->i;
         cout<<"i"<<endl;
     }
+
     complex operator+(const complex &obj)
     {
         this->i +=obj.i;
