@@ -40,6 +40,15 @@ public:
         temp.i = obj1.i - obj2.i;
         return temp;
     }
+
+    friend complex operator *(const complex &obj1,const complex &obj2)
+    {
+        complex temp;
+        temp.r = obj1.r * obj2.r - obj1.i * obj2.i;
+        temp.i = obj1.r * obj2.i + obj1.i * obj2.r;
+        return temp;
+    }
+
 };
 
 int main()
@@ -49,7 +58,16 @@ int main()
     c2.pr();
 
     complex c3;
-    c3 = c1-c2;
+    c3 = c1 + c2;
     c3.pr();
+
+    complex c4;
+    c4 = c1 - c2;
+    c4.pr();
+
+    complex c5;
+    c5 = c1 * c2;
+    c5.pr();
+
     return 0;
 }
