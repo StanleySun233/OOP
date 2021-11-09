@@ -6,10 +6,10 @@ private:
     double x;
     double y;
 public:
-    A(double _m, double _n)
+    A(double _x, double _y)
     {
-        this->x = _m;
-        this->y = _n;
+        this->x = _x;
+        this->y = _y;
     }
 
     A()
