@@ -43,10 +43,10 @@ RM = "D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Data\ClionProject\OOP\LessonSeven
+CMAKE_SOURCE_DIR = D:\Data\ClionProject\OOP\LessonSeven\proj1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Data\ClionProject\OOP\LessonSeven\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Data\ClionProject\OOP\LessonSeven\proj1\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -70,14 +70,14 @@ clean: CMakeFiles\LessonSeven.dir\clean
 CMakeFiles\LessonSeven.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonSeven.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonSeven.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Data\ClionProject\OOP\LessonSeven\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target LessonSeven"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Data\ClionProject\OOP\LessonSeven\proj1\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target LessonSeven"
 .PHONY : CMakeFiles\LessonSeven.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\LessonSeven.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonSeven\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonSeven\proj1\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\LessonSeven.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonSeven\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonSeven\proj1\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\LessonSeven.dir\rule
 
 # Convenience name for target.

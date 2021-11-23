@@ -8,7 +8,7 @@ private:
 public:
     double getL();
     double getW();
-    re(double l,double w);
+    re(double _l, double _w);
 };
 
 class res:private re
@@ -18,5 +18,5 @@ private:
 public:
     double getH();
     double cacuV();
-    res(double l, double w, double h);
+    res(double _l, double _w, double _h);
 };
