@@ -22,7 +22,7 @@ Poi::Poi(double _x,double _y)
 
 ostream &operator<<(ostream &os, Poi c)
 {
-    os << c.getX() << " " << c.getY() << " ";
+    os << c.getX() << " " << c.getY() << endl;
     return os;
 }
 
