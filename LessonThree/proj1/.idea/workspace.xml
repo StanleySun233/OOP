@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="proj1" targetName="proj1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60ef3f84-77a8-4935-be79-bfd4f2504ddc" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../../LessonNine/proj1/.idea/proj1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonNine/proj2/.idea/proj2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonNine/proj2/Vehicle.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonNine/proj2/Vehicle.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonNine/proj3/.idea/proj3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonNine/proj3/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonNine/proj3/Integer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonNine/proj3/Integer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonNine/proj3/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonOne/proj1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonOne/proj3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonOne/proj3/Staff.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonOne/proj3/Staff.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Student.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Student.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/OOP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonNine/proj2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonNine/proj2/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonNine/proj2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonNine/proj2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj1/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/proj1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/proj1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/proj1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/CMakeFiles/proj1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/proj1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj1/cmake-build-debug/proj1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj1/df.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj1/Complex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj1/function.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj1/Complex.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj1/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/proj3.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/proj3.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/proj3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/proj3.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/proj3.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/proj3.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/proj3.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/proj3.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/proj3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/CMakeFiles/proj3.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/proj3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/cmake-build-debug/proj3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonOne/proj3/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonOne/proj3/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/proj1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/proj1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/proj1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/proj1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/proj1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/proj1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/proj1.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/proj1.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/proj1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/CMakeFiles/proj1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/proj1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/cmake-build-debug/proj1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/df.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/Date.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/function.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/Date.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj1/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj3/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj3/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/proj3.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/proj3.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/proj3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/CMakeFiles/proj3.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/proj3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj3/cmake-build-debug/proj3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj3/df.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj3/Student.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj3/function.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj3/Student..cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj3/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj3/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj4/ADT.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj4/cla.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj4/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj4/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj4/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj4/df.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj4/cla.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LessonTwo/proj4/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../LessonTwo/proj4/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="222VfzBBIpXOe5xQyOR2tGi0a4f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="proj1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="proj1" TARGET_NAME="proj1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="proj1" RUN_TARGET_NAME="proj1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="60ef3f84-77a8-4935-be79-bfd4f2504ddc" name="变更" comment="" />
+      <created>1639035775674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639035775674</updated>
+      <workItem from="1639035777630" duration="75000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

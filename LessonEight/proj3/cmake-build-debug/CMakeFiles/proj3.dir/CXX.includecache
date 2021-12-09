@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Data/ClionProject/OOP/LessonNine/proj3/Integer.cpp
+Integer.h
+D:/Data/ClionProject/OOP/LessonNine/proj3/Integer.h
+
+D:/Data/ClionProject/OOP/LessonNine/proj3/Integer.h
+iostream
+D:/Data/ClionProject/OOP/LessonNine/proj3/iostream
+
+D:/Data/ClionProject/OOP/LessonNine/proj3/main.cpp
+Integer.h
+D:/Data/ClionProject/OOP/LessonNine/proj3/Integer.h
+
