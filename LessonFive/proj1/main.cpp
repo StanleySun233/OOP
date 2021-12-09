@@ -1,25 +1,6 @@
-#include<iostream>
-#define MAXSIZE 100
-using namespace std;
+#include "Student.h"
 
-class student
-{
-private:
-    static int count;
-    char name[MAXSIZE];
-public:
-    student(char n[])
-    {
-        strcpy_s(this->name,n);
-        count+=1;
-    }
-    static int pr()
-    {
-        return count;
-    }
-};
-
-int student::count = 0;
+int Student::count = 0;
 
 int main()
 {
@@ -28,8 +9,8 @@ int main()
     {
         char a[MAXSIZE];
         cin>>a;
-        student student(a);
-        cout<<"the number of the admit students is "<<student::pr()<<endl;
+        Student student(a);
+        cout << "the number of the admit students is " << Student::pr() << endl;
         t--;
     }
     return 0;

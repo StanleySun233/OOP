@@ -43,16 +43,16 @@ RM = "D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Data\ClionProject\OOP\LessonSeven\proj1
+CMAKE_SOURCE_DIR = D:\Data\ClionProject\OOP\LessonEight\proj1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Data\ClionProject\OOP\LessonSeven\proj1\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Data\ClionProject\OOP\LessonEight\proj1\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles\LessonSeven.dir\all
+all: CMakeFiles\LessonEight.dir\all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -60,34 +60,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles\LessonSeven.dir\clean
+clean: CMakeFiles\LessonEight.dir\clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/LessonSeven.dir
+# Target rules for target CMakeFiles/LessonEight.dir
 
 # All Build rule for target.
-CMakeFiles\LessonSeven.dir\all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonSeven.dir\depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonSeven.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Data\ClionProject\OOP\LessonSeven\proj1\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target LessonSeven"
-.PHONY : CMakeFiles\LessonSeven.dir\all
+CMakeFiles\LessonEight.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonEight.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonEight.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonEight.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonEight.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Data\ClionProject\OOP\LessonEight\proj1\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target LessonEight"
+.PHONY : CMakeFiles\LessonEight.dir\all
 
 # Build rule for subdir invocation for target.
-CMakeFiles\LessonSeven.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonSeven\proj1\cmake-build-debug\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\LessonSeven.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonSeven\proj1\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles\LessonSeven.dir\rule
+CMakeFiles\LessonEight.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonEight\proj1\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\LessonEight.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonEight\proj1\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\LessonEight.dir\rule
 
 # Convenience name for target.
-LessonSeven: CMakeFiles\LessonSeven.dir\rule
-.PHONY : LessonSeven
+LessonEight: CMakeFiles\LessonEight.dir\rule
+.PHONY : LessonEight
 
 # clean rule for target.
-CMakeFiles\LessonSeven.dir\clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonSeven.dir\clean
-.PHONY : CMakeFiles\LessonSeven.dir\clean
+CMakeFiles\LessonEight.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonEight.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonEight.dir\clean
+.PHONY : CMakeFiles\LessonEight.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

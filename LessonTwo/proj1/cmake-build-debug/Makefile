@@ -118,29 +118,29 @@ proj1\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj1.dir\build
 .PHONY : proj1\fast
 
-function.obj: function.cpp.obj
-.PHONY : function.obj
+Date.obj: Date.cpp.obj
+.PHONY : Date.obj
 
 # target to build an object file
-function.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj1.dir\function.cpp.obj
-.PHONY : function.cpp.obj
+Date.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj1.dir\Date.cpp.obj
+.PHONY : Date.cpp.obj
 
-function.i: function.cpp.i
-.PHONY : function.i
+Date.i: Date.cpp.i
+.PHONY : Date.i
 
 # target to preprocess a source file
-function.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj1.dir\function.cpp.i
-.PHONY : function.cpp.i
+Date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj1.dir\Date.cpp.i
+.PHONY : Date.cpp.i
 
-function.s: function.cpp.s
-.PHONY : function.s
+Date.s: Date.cpp.s
+.PHONY : Date.s
 
 # target to generate assembly for a file
-function.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj1.dir\function.cpp.s
-.PHONY : function.cpp.s
+Date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj1.dir\Date.cpp.s
+.PHONY : Date.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -175,9 +175,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... proj1
-	@echo ... function.obj
-	@echo ... function.i
-	@echo ... function.s
+	@echo ... Date.obj
+	@echo ... Date.i
+	@echo ... Date.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

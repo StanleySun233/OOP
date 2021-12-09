@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "D:/Data/ClionProject/OOP/LessonSeven/proj1/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "D:/Data/ClionProject/OOP/LessonEight/proj1/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29910/bin/Hostx86/x86/cl.exe 
@@ -45,27 +45,27 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "D:/Data/ClionProject/OOP/LessonSeven/proj1/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "D:/Data/ClionProject/OOP/LessonEight/proj1/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: D:/Data/ClionProject/OOP/LessonSeven/proj1/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/Data/ClionProject/OOP/LessonEight/proj1/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake -f Makefile /nologo cmTC_09384\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_09384.dir\build.make /nologo -L                  CMakeFiles\cmTC_09384.dir\build
-Building C object CMakeFiles/cmTC_09384.dir/testCCompiler.c.obj
-	"D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_09384.dir\testCCompiler.c.obj.d --working-dir=D:\Data\ClionProject\OOP\LessonSeven\proj1\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @C:\Users\70929\AppData\Local\Temp\nm83E9.tmp
-Linking C executable cmTC_09384.exe
-	"D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_09384.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_09384.dir\objects1.rsp @C:\Users\70929\AppData\Local\Temp\nm84A5.tmp
+Run Build Command(s):nmake -f Makefile /nologo cmTC_8be3c\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_8be3c.dir\build.make /nologo -L                  CMakeFiles\cmTC_8be3c.dir\build
+Building C object CMakeFiles/cmTC_8be3c.dir/testCCompiler.c.obj
+	"D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_8be3c.dir\testCCompiler.c.obj.d --working-dir=D:\Data\ClionProject\OOP\LessonEight\proj1\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @C:\Users\70929\AppData\Local\Temp\nm30B3.tmp
+Linking C executable cmTC_8be3c.exe
+	"D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_8be3c.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_8be3c.dir\objects1.rsp @C:\Users\70929\AppData\Local\Temp\nm3170.tmp
 
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: D:/Data/ClionProject/OOP/LessonSeven/proj1/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/Data/ClionProject/OOP/LessonEight/proj1/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake -f Makefile /nologo cmTC_26c80\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_26c80.dir\build.make /nologo -L                  CMakeFiles\cmTC_26c80.dir\build
-Building CXX object CMakeFiles/cmTC_26c80.dir/testCXXCompiler.cxx.obj
-	"D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_26c80.dir\testCXXCompiler.cxx.obj.d --working-dir=D:\Data\ClionProject\OOP\LessonSeven\proj1\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @C:\Users\70929\AppData\Local\Temp\nm8D7E.tmp
-Linking CXX executable cmTC_26c80.exe
-	"D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_26c80.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_26c80.dir\objects1.rsp @C:\Users\70929\AppData\Local\Temp\nm8E3B.tmp
+Run Build Command(s):nmake -f Makefile /nologo cmTC_49a1d\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_49a1d.dir\build.make /nologo -L                  CMakeFiles\cmTC_49a1d.dir\build
+Building CXX object CMakeFiles/cmTC_49a1d.dir/testCXXCompiler.cxx.obj
+	"D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_49a1d.dir\testCXXCompiler.cxx.obj.d --working-dir=D:\Data\ClionProject\OOP\LessonEight\proj1\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @C:\Users\70929\AppData\Local\Temp\nm3660.tmp
+Linking CXX executable cmTC_49a1d.exe
+	"D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_49a1d.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_49a1d.dir\objects1.rsp @C:\Users\70929\AppData\Local\Temp\nm372C.tmp
 
 
 

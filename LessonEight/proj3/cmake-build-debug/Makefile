@@ -46,10 +46,10 @@ RM = "D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Data\ClionProject\OOP\LessonEight\proj3
+CMAKE_SOURCE_DIR = D:\Data\ClionProject\OOP\LessonNine\proj3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Data\ClionProject\OOP\LessonEight\proj3\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Data\ClionProject\OOP\LessonNine\proj3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonEight\proj3\cmake-build-debug\CMakeFiles D:\Data\ClionProject\OOP\LessonEight\proj3\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonNine\proj3\cmake-build-debug\CMakeFiles D:\Data\ClionProject\OOP\LessonNine\proj3\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonEight\proj3\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonNine\proj3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -118,6 +118,30 @@ proj3\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj3.dir\build
 .PHONY : proj3\fast
 
+Integer.obj: Integer.cpp.obj
+.PHONY : Integer.obj
+
+# target to build an object file
+Integer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj3.dir\Integer.cpp.obj
+.PHONY : Integer.cpp.obj
+
+Integer.i: Integer.cpp.i
+.PHONY : Integer.i
+
+# target to preprocess a source file
+Integer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj3.dir\Integer.cpp.i
+.PHONY : Integer.cpp.i
+
+Integer.s: Integer.cpp.s
+.PHONY : Integer.s
+
+# target to generate assembly for a file
+Integer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj3.dir\Integer.cpp.s
+.PHONY : Integer.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -151,6 +175,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... proj3
+	@echo ... Integer.obj
+	@echo ... Integer.i
+	@echo ... Integer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/Data/ClionProject/OOP/LessonEight/proj2/TimeDate.h
+D:/Data/ClionProject/OOP/LessonNine/proj2/Vehicle.h
 iostream
-D:/Data/ClionProject/OOP/LessonEight/proj2/iostream
+D:/Data/ClionProject/OOP/LessonNine/proj2/iostream
+string
+D:/Data/ClionProject/OOP/LessonNine/proj2/string
 
-D:/Data/ClionProject/OOP/LessonEight/proj2/main.cpp
-TimeDate.h
-D:/Data/ClionProject/OOP/LessonEight/proj2/TimeDate.h
+D:/Data/ClionProject/OOP/LessonNine/proj2/main.cpp
+Vehicle.h
+D:/Data/ClionProject/OOP/LessonNine/proj2/Vehicle.h
 

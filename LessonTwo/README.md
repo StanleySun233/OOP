@@ -1,17 +1,8 @@
-# 实验项目名称    类和对象
+# 二、类和对象
 ## 一、实验要求
 ### 1.掌握类的设计方法。
 ### 2.熟悉构造函数和析构函数的使用。
 ## 二、实验内容
 ### 1.设计一个日期型类，实现输入日期，判断该年份是否为闰年，并输出日期，格式为”yyyy-mm-dd”。
-#### [main](proj1/main.cpp)
-#### [function](proj1/function.cpp)
-#### [df](proj1/df.h)
 ### 3.设计一个复数类complex,实现复数加、减和乘的功能。
-#### [main](proj3/main.cpp)
-#### [function](proj3/function.cpp)
-#### [df](proj3/df.h)
 ### 4.设计一个学生类，实现学生基本信息的输入和输出
-#### [main](proj4/main.cpp)
-#### [ADT](proj4/ADT.cpp)
-#### [df](proj4/df.h)

@@ -3,4 +3,4 @@ project(proj4)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(proj4 main.cpp ADT.cpp df.h)
+add_executable(proj4 main.cpp cla.cpp cla.h)

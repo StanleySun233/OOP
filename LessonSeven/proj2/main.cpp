@@ -1,9 +1,14 @@
-#include "Poi.h"
+#include "TimeDate.h"
 
-int main() {
-    cout<<"Input l y r,split by space."<<endl;
-    Circle c(0,0,0);
-    cin >> c;
-    cout<<c;
+int main()
+{
+    int a,b,c;
+    TimeDate t;
+
+    cin>>a>>b>>c;
+
+    t.set(a,b,c);
+    t.print();
+
     return 0;
 }

@@ -74,17 +74,38 @@ CMakeFiles\proj3.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\proj3.dir\main.cpp.s /c D:\Data\ClionProject\OOP\LessonOne\proj3\main.cpp
 <<
 
+CMakeFiles\proj3.dir\Staff.cpp.obj: CMakeFiles\proj3.dir\flags.make
+CMakeFiles\proj3.dir\Staff.cpp.obj: ..\Staff.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Data\ClionProject\OOP\LessonOne\proj3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/proj3.dir/Staff.cpp.obj"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\proj3.dir\Staff.cpp.obj /FdCMakeFiles\proj3.dir\ /FS -c D:\Data\ClionProject\OOP\LessonOne\proj3\Staff.cpp
+<<
+
+CMakeFiles\proj3.dir\Staff.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj3.dir/Staff.cpp.i"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" > CMakeFiles\proj3.dir\Staff.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Data\ClionProject\OOP\LessonOne\proj3\Staff.cpp
+<<
+
+CMakeFiles\proj3.dir\Staff.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj3.dir/Staff.cpp.s"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\proj3.dir\Staff.cpp.s /c D:\Data\ClionProject\OOP\LessonOne\proj3\Staff.cpp
+<<
+
 # Object files for target proj3
 proj3_OBJECTS = \
-"CMakeFiles\proj3.dir\main.cpp.obj"
+"CMakeFiles\proj3.dir\main.cpp.obj" \
+"CMakeFiles\proj3.dir\Staff.cpp.obj"
 
 # External object files for target proj3
 proj3_EXTERNAL_OBJECTS =
 
 proj3.exe: CMakeFiles\proj3.dir\main.cpp.obj
+proj3.exe: CMakeFiles\proj3.dir\Staff.cpp.obj
 proj3.exe: CMakeFiles\proj3.dir\build.make
 proj3.exe: CMakeFiles\proj3.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Data\ClionProject\OOP\LessonOne\proj3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable proj3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Data\ClionProject\OOP\LessonOne\proj3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable proj3.exe"
 	"D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\proj3.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\proj3.dir\objects1.rsp @<<
  /out:proj3.exe /implib:proj3.lib /pdb:D:\Data\ClionProject\OOP\LessonOne\proj3\cmake-build-debug\proj3.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

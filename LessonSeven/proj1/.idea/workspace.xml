@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="LessonSeven" targetName="LessonSeven" />
+      <config projectName="LessonEight" targetName="LessonEight" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5301f1de-0ea5-4d86-9e69-1de927633ca0" name="Changes" comment="" />
+    <list default="true" id="5dfc043b-36b2-41f2-bea5-95c1a7a2db24" name="变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="21JTvXqIzDWYSQf0obcZY3Q81Xg" />
+  <component name="ProjectId" id="21zhcbWW6zKkat7blhDymotVS5A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -43,7 +43,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../proj2" />
   </component>
   <component name="RunManager">
-    <configuration name="LessonSeven" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LessonSeven" TARGET_NAME="LessonSeven" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LessonSeven" RUN_TARGET_NAME="LessonSeven">
+    <configuration name="LessonEight" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LessonEight" TARGET_NAME="LessonEight" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LessonEight" RUN_TARGET_NAME="LessonEight">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -53,22 +53,19 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="5301f1de-0ea5-4d86-9e69-1de927633ca0" name="Changes" comment="" />
-      <created>1637652441674</created>
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5dfc043b-36b2-41f2-bea5-95c1a7a2db24" name="变更" comment="" />
+      <created>1638949904432</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1637652441674</updated>
-      <workItem from="1637652448404" duration="791000" />
-      <workItem from="1637658425458" duration="2048000" />
+      <updated>1638949904432</updated>
+      <workItem from="1638949920043" duration="1693000" />
+      <workItem from="1638952108746" duration="33000" />
+      <workItem from="1638953031346" duration="1160000" />
+      <workItem from="1638963741988" duration="519000" />
     </task>
     <servers />
   </component>

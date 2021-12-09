@@ -74,35 +74,35 @@ CMakeFiles\proj1.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\proj1.dir\main.cpp.s /c D:\Data\ClionProject\OOP\LessonTwo\proj1\main.cpp
 <<
 
-CMakeFiles\proj1.dir\function.cpp.obj: CMakeFiles\proj1.dir\flags.make
-CMakeFiles\proj1.dir\function.cpp.obj: ..\function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Data\ClionProject\OOP\LessonTwo\proj1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/proj1.dir/function.cpp.obj"
+CMakeFiles\proj1.dir\Date.cpp.obj: CMakeFiles\proj1.dir\flags.make
+CMakeFiles\proj1.dir\Date.cpp.obj: ..\Date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Data\ClionProject\OOP\LessonTwo\proj1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/proj1.dir/Date.cpp.obj"
 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\proj1.dir\function.cpp.obj /FdCMakeFiles\proj1.dir\ /FS -c D:\Data\ClionProject\OOP\LessonTwo\proj1\function.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\proj1.dir\Date.cpp.obj /FdCMakeFiles\proj1.dir\ /FS -c D:\Data\ClionProject\OOP\LessonTwo\proj1\Date.cpp
 <<
 
-CMakeFiles\proj1.dir\function.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj1.dir/function.cpp.i"
-	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" > CMakeFiles\proj1.dir\function.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Data\ClionProject\OOP\LessonTwo\proj1\function.cpp
+CMakeFiles\proj1.dir\Date.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj1.dir/Date.cpp.i"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" > CMakeFiles\proj1.dir\Date.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Data\ClionProject\OOP\LessonTwo\proj1\Date.cpp
 <<
 
-CMakeFiles\proj1.dir\function.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj1.dir/function.cpp.s"
+CMakeFiles\proj1.dir\Date.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj1.dir/Date.cpp.s"
 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\proj1.dir\function.cpp.s /c D:\Data\ClionProject\OOP\LessonTwo\proj1\function.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\proj1.dir\Date.cpp.s /c D:\Data\ClionProject\OOP\LessonTwo\proj1\Date.cpp
 <<
 
 # Object files for target proj1
 proj1_OBJECTS = \
 "CMakeFiles\proj1.dir\main.cpp.obj" \
-"CMakeFiles\proj1.dir\function.cpp.obj"
+"CMakeFiles\proj1.dir\Date.cpp.obj"
 
 # External object files for target proj1
 proj1_EXTERNAL_OBJECTS =
 
 proj1.exe: CMakeFiles\proj1.dir\main.cpp.obj
-proj1.exe: CMakeFiles\proj1.dir\function.cpp.obj
+proj1.exe: CMakeFiles\proj1.dir\Date.cpp.obj
 proj1.exe: CMakeFiles\proj1.dir\build.make
 proj1.exe: CMakeFiles\proj1.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Data\ClionProject\OOP\LessonTwo\proj1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable proj1.exe"

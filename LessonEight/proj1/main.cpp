@@ -1,20 +1,15 @@
-#include "Polygon.h"
+#include "Add.h"
 
 int main()
 {
-    float a,b,c;
-    Cycle C;
-    Tan T;
+    string s = "Hello";
+    int n = 15;
+    Add a(n,s);
 
-    cout<<"Input the r of cycle"<<endl;
-    cin>>a;
-    C.setR(a);
-    cout<<"The square is:\t"<<C.getArea()<<endl;
+    a.prN(),a.prS();
+    a.add(10);
+    a.add(" World");
 
-    cout<<"Input the a,b,c of tangle"<<endl;
-    cin>>a>>b>>c;
-    T.setSide(a,b,c);
-    cout<<"The square is:\t"<<T.getArea()<<endl;
-
+    a.prN(),a.prS();
     return 0;
 }

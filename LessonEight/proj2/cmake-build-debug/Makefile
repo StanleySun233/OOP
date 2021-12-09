@@ -46,10 +46,10 @@ RM = "D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Data\ClionProject\OOP\LessonEight\proj2
+CMAKE_SOURCE_DIR = D:\Data\ClionProject\OOP\LessonNine\proj2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Data\ClionProject\OOP\LessonEight\proj2\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Data\ClionProject\OOP\LessonNine\proj2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonEight\proj2\cmake-build-debug\CMakeFiles D:\Data\ClionProject\OOP\LessonEight\proj2\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonNine\proj2\cmake-build-debug\CMakeFiles D:\Data\ClionProject\OOP\LessonNine\proj2\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonEight\proj2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonNine\proj2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -118,6 +118,30 @@ proj2\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj2.dir\build
 .PHONY : proj2\fast
 
+Vehicle.obj: Vehicle.cpp.obj
+.PHONY : Vehicle.obj
+
+# target to build an object file
+Vehicle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj2.dir\Vehicle.cpp.obj
+.PHONY : Vehicle.cpp.obj
+
+Vehicle.i: Vehicle.cpp.i
+.PHONY : Vehicle.i
+
+# target to preprocess a source file
+Vehicle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj2.dir\Vehicle.cpp.i
+.PHONY : Vehicle.cpp.i
+
+Vehicle.s: Vehicle.cpp.s
+.PHONY : Vehicle.s
+
+# target to generate assembly for a file
+Vehicle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj2.dir\Vehicle.cpp.s
+.PHONY : Vehicle.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -151,6 +175,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... proj2
+	@echo ... Vehicle.obj
+	@echo ... Vehicle.i
+	@echo ... Vehicle.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

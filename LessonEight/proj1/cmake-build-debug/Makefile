@@ -46,23 +46,13 @@ RM = "D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Data\ClionProject\OOP\LessonEight\proj1
+CMAKE_SOURCE_DIR = D:\Data\ClionProject\OOP\LessonNine\proj1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Data\ClionProject\OOP\LessonEight\proj1\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Data\ClionProject\OOP\LessonNine\proj1\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache\fast: edit_cache
-.PHONY : edit_cache\fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -74,11 +64,21 @@ rebuild_cache:
 rebuild_cache\fast: rebuild_cache
 .PHONY : rebuild_cache\fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	echo >nul && "D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache\fast: edit_cache
+.PHONY : edit_cache\fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonEight\proj1\cmake-build-debug\CMakeFiles D:\Data\ClionProject\OOP\LessonEight\proj1\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonNine\proj1\cmake-build-debug\CMakeFiles D:\Data\ClionProject\OOP\LessonNine\proj1\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonEight\proj1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonNine\proj1\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -106,24 +106,48 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LessonEight
+# Target rules for targets named proj1
 
 # Build rule for target.
-LessonEight: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LessonEight
-.PHONY : LessonEight
+proj1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) proj1
+.PHONY : proj1
 
 # fast build rule for target.
-LessonEight\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonEight.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonEight.dir\build
-.PHONY : LessonEight\fast
+proj1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj1.dir\build
+.PHONY : proj1\fast
+
+Add.obj: Add.cpp.obj
+.PHONY : Add.obj
+
+# target to build an object file
+Add.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj1.dir\Add.cpp.obj
+.PHONY : Add.cpp.obj
+
+Add.i: Add.cpp.i
+.PHONY : Add.i
+
+# target to preprocess a source file
+Add.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj1.dir\Add.cpp.i
+.PHONY : Add.cpp.i
+
+Add.s: Add.cpp.s
+.PHONY : Add.s
+
+# target to generate assembly for a file
+Add.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj1.dir\Add.cpp.s
+.PHONY : Add.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonEight.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonEight.dir\main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj1.dir\main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -131,7 +155,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonEight.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonEight.dir\main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj1.dir\main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -139,7 +163,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonEight.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonEight.dir\main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj1.dir\main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -150,7 +174,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... LessonEight
+	@echo ... proj1
+	@echo ... Add.obj
+	@echo ... Add.i
+	@echo ... Add.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

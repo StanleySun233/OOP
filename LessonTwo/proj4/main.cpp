@@ -1,4 +1,4 @@
-#include "df.h"
+#include "cla.h"
 
 int main()
 {
@@ -9,6 +9,6 @@ int main()
         p->PutY(2*i);
         cout<<"p points to  "<<i<<"  x = "<<p->GetX()<<"  y = "<<p->GetY()<<endl;
     }
-    delete p;
+
     return 0;
 }

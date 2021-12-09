@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/proj3.dir/Staff.cpp.obj"
   "CMakeFiles/proj3.dir/main.cpp.obj"
   "proj3.exe"
   "proj3.exe.manifest"

@@ -118,6 +118,30 @@ proj3\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj3.dir\build
 .PHONY : proj3\fast
 
+Staff.obj: Staff.cpp.obj
+.PHONY : Staff.obj
+
+# target to build an object file
+Staff.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj3.dir\Staff.cpp.obj
+.PHONY : Staff.cpp.obj
+
+Staff.i: Staff.cpp.i
+.PHONY : Staff.i
+
+# target to preprocess a source file
+Staff.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj3.dir\Staff.cpp.i
+.PHONY : Staff.cpp.i
+
+Staff.s: Staff.cpp.s
+.PHONY : Staff.s
+
+# target to generate assembly for a file
+Staff.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proj3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proj3.dir\Staff.cpp.s
+.PHONY : Staff.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -151,6 +175,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... proj3
+	@echo ... Staff.obj
+	@echo ... Staff.i
+	@echo ... Staff.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

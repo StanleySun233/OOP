@@ -1,12 +1,20 @@
-#include "Vol.h"
+#include "Polygon.h"
 
 int main()
 {
-    double l,w,h;
-    cout<<"Input the l w h, split by space."<<endl;
-    cin>>l>>w>>h;
-    res *rs = new res(l,w,h);
-    cout << "The result is:\t" << rs->cacuV() << endl;
-    delete rs;
+    float a,b,c;
+    Cycle C;
+    Tan T;
+
+    cout<<"Input the r of cycle"<<endl;
+    cin>>a;
+    C.setR(a);
+    cout<<"The square is:\t"<<C.getArea()<<endl;
+
+    cout<<"Input the a,b,c of tangle"<<endl;
+    cin>>a>>b>>c;
+    T.setSide(a,b,c);
+    cout<<"The square is:\t"<<T.getArea()<<endl;
+
     return 0;
 }

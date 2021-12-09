@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/proj2.dir/Poi.cpp.obj"
   "CMakeFiles/proj2.dir/main.cpp.obj"
   "proj2.exe"
   "proj2.exe.manifest"

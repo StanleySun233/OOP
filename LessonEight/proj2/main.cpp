@@ -1,14 +1,16 @@
-#include "TimeDate.h"
+#include "Vehicle.h"
 
 int main()
 {
-    int a,b,c;
-    TimeDate t;
+    Vehicle v;
+    Car c;
+    Truck t;
+    Boat b;
 
-    cin>>a>>b>>c;
-
-    t.set(a,b,c);
-    t.print();
+    v.pr();
+    c.pr();
+    t.pr();
+    b.pr();
 
     return 0;
 }

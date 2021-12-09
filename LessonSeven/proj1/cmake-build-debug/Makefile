@@ -46,10 +46,10 @@ RM = "D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Data\ClionProject\OOP\LessonSeven\proj1
+CMAKE_SOURCE_DIR = D:\Data\ClionProject\OOP\LessonEight\proj1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Data\ClionProject\OOP\LessonSeven\proj1\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Data\ClionProject\OOP\LessonEight\proj1\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonSeven\proj1\cmake-build-debug\CMakeFiles D:\Data\ClionProject\OOP\LessonSeven\proj1\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonEight\proj1\cmake-build-debug\CMakeFiles D:\Data\ClionProject\OOP\LessonEight\proj1\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonSeven\proj1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\ClionProject\OOP\LessonEight\proj1\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -106,48 +106,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LessonSeven
+# Target rules for targets named LessonEight
 
 # Build rule for target.
-LessonSeven: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LessonSeven
-.PHONY : LessonSeven
+LessonEight: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LessonEight
+.PHONY : LessonEight
 
 # fast build rule for target.
-LessonSeven\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonSeven.dir\build
-.PHONY : LessonSeven\fast
-
-Vol.obj: Vol.cpp.obj
-.PHONY : Vol.obj
-
-# target to build an object file
-Vol.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonSeven.dir\Vol.cpp.obj
-.PHONY : Vol.cpp.obj
-
-Vol.i: Vol.cpp.i
-.PHONY : Vol.i
-
-# target to preprocess a source file
-Vol.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonSeven.dir\Vol.cpp.i
-.PHONY : Vol.cpp.i
-
-Vol.s: Vol.cpp.s
-.PHONY : Vol.s
-
-# target to generate assembly for a file
-Vol.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonSeven.dir\Vol.cpp.s
-.PHONY : Vol.cpp.s
+LessonEight\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonEight.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonEight.dir\build
+.PHONY : LessonEight\fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonSeven.dir\main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonEight.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonEight.dir\main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -155,7 +131,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonSeven.dir\main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonEight.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonEight.dir\main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -163,7 +139,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonSeven.dir\main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LessonEight.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LessonEight.dir\main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -174,10 +150,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... LessonSeven
-	@echo ... Vol.obj
-	@echo ... Vol.i
-	@echo ... Vol.s
+	@echo ... LessonEight
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

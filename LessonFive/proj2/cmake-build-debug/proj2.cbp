@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Data/ClionProject/OOP/LessonFive/proj2/M.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="D:/Data/ClionProject/OOP/LessonFive/proj2/M.h">
+			<Option target="proj2"/>
+		</Unit>
 		<Unit filename="D:/Data/ClionProject/OOP/LessonFive/proj2/main.cpp">
 			<Option target="proj2"/>
 		</Unit>
