@@ -74,38 +74,101 @@ CMakeFiles\temp.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\temp.dir\main.cpp.s /c D:\Data\ClionProject\OOP\temp\main.cpp
 <<
 
-CMakeFiles\temp.dir\Student.cpp.obj: CMakeFiles\temp.dir\flags.make
-CMakeFiles\temp.dir\Student.cpp.obj: ..\Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Data\ClionProject\OOP\temp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/temp.dir/Student.cpp.obj"
+CMakeFiles\temp.dir\clothes.cpp.obj: CMakeFiles\temp.dir\flags.make
+CMakeFiles\temp.dir\clothes.cpp.obj: ..\clothes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Data\ClionProject\OOP\temp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/temp.dir/clothes.cpp.obj"
 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\temp.dir\Student.cpp.obj /FdCMakeFiles\temp.dir\ /FS -c D:\Data\ClionProject\OOP\temp\Student.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\temp.dir\clothes.cpp.obj /FdCMakeFiles\temp.dir\ /FS -c D:\Data\ClionProject\OOP\temp\clothes.cpp
 <<
 
-CMakeFiles\temp.dir\Student.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/temp.dir/Student.cpp.i"
-	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" > CMakeFiles\temp.dir\Student.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Data\ClionProject\OOP\temp\Student.cpp
+CMakeFiles\temp.dir\clothes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/temp.dir/clothes.cpp.i"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" > CMakeFiles\temp.dir\clothes.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Data\ClionProject\OOP\temp\clothes.cpp
 <<
 
-CMakeFiles\temp.dir\Student.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/temp.dir/Student.cpp.s"
+CMakeFiles\temp.dir\clothes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/temp.dir/clothes.cpp.s"
 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\temp.dir\Student.cpp.s /c D:\Data\ClionProject\OOP\temp\Student.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\temp.dir\clothes.cpp.s /c D:\Data\ClionProject\OOP\temp\clothes.cpp
+<<
+
+CMakeFiles\temp.dir\page.cpp.obj: CMakeFiles\temp.dir\flags.make
+CMakeFiles\temp.dir\page.cpp.obj: ..\page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Data\ClionProject\OOP\temp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/temp.dir/page.cpp.obj"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\temp.dir\page.cpp.obj /FdCMakeFiles\temp.dir\ /FS -c D:\Data\ClionProject\OOP\temp\page.cpp
+<<
+
+CMakeFiles\temp.dir\page.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/temp.dir/page.cpp.i"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" > CMakeFiles\temp.dir\page.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Data\ClionProject\OOP\temp\page.cpp
+<<
+
+CMakeFiles\temp.dir\page.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/temp.dir/page.cpp.s"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\temp.dir\page.cpp.s /c D:\Data\ClionProject\OOP\temp\page.cpp
+<<
+
+CMakeFiles\temp.dir\account.cpp.obj: CMakeFiles\temp.dir\flags.make
+CMakeFiles\temp.dir\account.cpp.obj: ..\account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Data\ClionProject\OOP\temp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/temp.dir/account.cpp.obj"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\temp.dir\account.cpp.obj /FdCMakeFiles\temp.dir\ /FS -c D:\Data\ClionProject\OOP\temp\account.cpp
+<<
+
+CMakeFiles\temp.dir\account.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/temp.dir/account.cpp.i"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" > CMakeFiles\temp.dir\account.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Data\ClionProject\OOP\temp\account.cpp
+<<
+
+CMakeFiles\temp.dir\account.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/temp.dir/account.cpp.s"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\temp.dir\account.cpp.s /c D:\Data\ClionProject\OOP\temp\account.cpp
+<<
+
+CMakeFiles\temp.dir\library.cpp.obj: CMakeFiles\temp.dir\flags.make
+CMakeFiles\temp.dir\library.cpp.obj: ..\library.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Data\ClionProject\OOP\temp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/temp.dir/library.cpp.obj"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\temp.dir\library.cpp.obj /FdCMakeFiles\temp.dir\ /FS -c D:\Data\ClionProject\OOP\temp\library.cpp
+<<
+
+CMakeFiles\temp.dir\library.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/temp.dir/library.cpp.i"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" > CMakeFiles\temp.dir\library.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Data\ClionProject\OOP\temp\library.cpp
+<<
+
+CMakeFiles\temp.dir\library.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/temp.dir/library.cpp.s"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\temp.dir\library.cpp.s /c D:\Data\ClionProject\OOP\temp\library.cpp
 <<
 
 # Object files for target temp
 temp_OBJECTS = \
 "CMakeFiles\temp.dir\main.cpp.obj" \
-"CMakeFiles\temp.dir\Student.cpp.obj"
+"CMakeFiles\temp.dir\clothes.cpp.obj" \
+"CMakeFiles\temp.dir\page.cpp.obj" \
+"CMakeFiles\temp.dir\account.cpp.obj" \
+"CMakeFiles\temp.dir\library.cpp.obj"
 
 # External object files for target temp
 temp_EXTERNAL_OBJECTS =
 
 temp.exe: CMakeFiles\temp.dir\main.cpp.obj
-temp.exe: CMakeFiles\temp.dir\Student.cpp.obj
+temp.exe: CMakeFiles\temp.dir\clothes.cpp.obj
+temp.exe: CMakeFiles\temp.dir\page.cpp.obj
+temp.exe: CMakeFiles\temp.dir\account.cpp.obj
+temp.exe: CMakeFiles\temp.dir\library.cpp.obj
 temp.exe: CMakeFiles\temp.dir\build.make
 temp.exe: CMakeFiles\temp.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Data\ClionProject\OOP\temp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable temp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Data\ClionProject\OOP\temp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable temp.exe"
 	"D:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\temp.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\temp.dir\objects1.rsp @<<
  /out:temp.exe /implib:temp.lib /pdb:D:\Data\ClionProject\OOP\temp\cmake-build-debug\temp.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

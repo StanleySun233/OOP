@@ -82,13 +82,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Data/ClionProject/OOP/temp/Student.cpp">
+		<Unit filename="D:/Data/ClionProject/OOP/temp/account.cpp">
 			<Option target="temp"/>
 		</Unit>
-		<Unit filename="D:/Data/ClionProject/OOP/temp/Student.h">
+		<Unit filename="D:/Data/ClionProject/OOP/temp/account.h">
+			<Option target="temp"/>
+		</Unit>
+		<Unit filename="D:/Data/ClionProject/OOP/temp/clothes.cpp">
+			<Option target="temp"/>
+		</Unit>
+		<Unit filename="D:/Data/ClionProject/OOP/temp/clothes.h">
+			<Option target="temp"/>
+		</Unit>
+		<Unit filename="D:/Data/ClionProject/OOP/temp/library.cpp">
+			<Option target="temp"/>
+		</Unit>
+		<Unit filename="D:/Data/ClionProject/OOP/temp/library.h">
 			<Option target="temp"/>
 		</Unit>
 		<Unit filename="D:/Data/ClionProject/OOP/temp/main.cpp">
+			<Option target="temp"/>
+		</Unit>
+		<Unit filename="D:/Data/ClionProject/OOP/temp/page.cpp">
+			<Option target="temp"/>
+		</Unit>
+		<Unit filename="D:/Data/ClionProject/OOP/temp/page.h">
 			<Option target="temp"/>
 		</Unit>
 		<Unit filename="D:/Data/ClionProject/OOP/temp/CMakeLists.txt">

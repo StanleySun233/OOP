@@ -118,29 +118,77 @@ temp\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\build
 .PHONY : temp\fast
 
-Student.obj: Student.cpp.obj
-.PHONY : Student.obj
+account.obj: account.cpp.obj
+.PHONY : account.obj
 
 # target to build an object file
-Student.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\Student.cpp.obj
-.PHONY : Student.cpp.obj
+account.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\account.cpp.obj
+.PHONY : account.cpp.obj
 
-Student.i: Student.cpp.i
-.PHONY : Student.i
+account.i: account.cpp.i
+.PHONY : account.i
 
 # target to preprocess a source file
-Student.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\Student.cpp.i
-.PHONY : Student.cpp.i
+account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\account.cpp.i
+.PHONY : account.cpp.i
 
-Student.s: Student.cpp.s
-.PHONY : Student.s
+account.s: account.cpp.s
+.PHONY : account.s
 
 # target to generate assembly for a file
-Student.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\Student.cpp.s
-.PHONY : Student.cpp.s
+account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\account.cpp.s
+.PHONY : account.cpp.s
+
+clothes.obj: clothes.cpp.obj
+.PHONY : clothes.obj
+
+# target to build an object file
+clothes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\clothes.cpp.obj
+.PHONY : clothes.cpp.obj
+
+clothes.i: clothes.cpp.i
+.PHONY : clothes.i
+
+# target to preprocess a source file
+clothes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\clothes.cpp.i
+.PHONY : clothes.cpp.i
+
+clothes.s: clothes.cpp.s
+.PHONY : clothes.s
+
+# target to generate assembly for a file
+clothes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\clothes.cpp.s
+.PHONY : clothes.cpp.s
+
+library.obj: library.cpp.obj
+.PHONY : library.obj
+
+# target to build an object file
+library.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\library.cpp.obj
+.PHONY : library.cpp.obj
+
+library.i: library.cpp.i
+.PHONY : library.i
+
+# target to preprocess a source file
+library.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\library.cpp.i
+.PHONY : library.cpp.i
+
+library.s: library.cpp.s
+.PHONY : library.s
+
+# target to generate assembly for a file
+library.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\library.cpp.s
+.PHONY : library.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -166,6 +214,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+page.obj: page.cpp.obj
+.PHONY : page.obj
+
+# target to build an object file
+page.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\page.cpp.obj
+.PHONY : page.cpp.obj
+
+page.i: page.cpp.i
+.PHONY : page.i
+
+# target to preprocess a source file
+page.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\page.cpp.i
+.PHONY : page.cpp.i
+
+page.s: page.cpp.s
+.PHONY : page.s
+
+# target to generate assembly for a file
+page.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\page.cpp.s
+.PHONY : page.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -175,12 +247,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... temp
-	@echo ... Student.obj
-	@echo ... Student.i
-	@echo ... Student.s
+	@echo ... account.obj
+	@echo ... account.i
+	@echo ... account.s
+	@echo ... clothes.obj
+	@echo ... clothes.i
+	@echo ... clothes.s
+	@echo ... library.obj
+	@echo ... library.i
+	@echo ... library.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... page.obj
+	@echo ... page.i
+	@echo ... page.s
 .PHONY : help
 
 
