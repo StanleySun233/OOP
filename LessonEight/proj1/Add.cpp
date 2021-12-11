@@ -1,5 +1,7 @@
 #include "Add.h"
 
+#include <utility>
+
 Add::Add(int _n,string &_s)
 {
     this->n = _n;
@@ -20,7 +22,6 @@ void Add::prN()
 {
     cout<<"n = "<< this->n<<endl;
 }
-
 void Add::prS()
 {
     cout<<"s = "<< this->s<<endl;
