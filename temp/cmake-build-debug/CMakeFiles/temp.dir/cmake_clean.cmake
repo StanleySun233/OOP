@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/temp.dir/source/clothes.cpp.obj"
   "CMakeFiles/temp.dir/source/library.cpp.obj"
   "CMakeFiles/temp.dir/source/page.cpp.obj"
+  "CMakeFiles/temp.dir/source/show.cpp.obj"
   "temp.exe"
   "temp.exe.manifest"
   "temp.lib"

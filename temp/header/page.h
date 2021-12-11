@@ -10,6 +10,7 @@
 #include "account.h"
 #include "library.h"
 #include "clothes.h"
+#include "showWindows.h"
 using namespace std;
 
 class Page
