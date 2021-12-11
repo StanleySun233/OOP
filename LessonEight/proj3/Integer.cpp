@@ -17,7 +17,9 @@ void Ten::pr()
         i++;
     }
     while (i--)
+    {
         cout<<res[i];
+    }
     cout<<endl;
 }
 
