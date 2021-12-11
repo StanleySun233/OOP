@@ -3,4 +3,4 @@ project(temp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(temp main.cpp clothes.cpp clothes.h page.cpp page.h account.cpp account.h library.cpp library.h)
+add_executable(temp main.cpp source/clothes.cpp header/clothes.h source/page.cpp header/page.h source/account.cpp header/account.h source/library.cpp header/library.h)

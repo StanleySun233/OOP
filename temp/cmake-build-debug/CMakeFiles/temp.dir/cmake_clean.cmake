@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/temp.dir/account.cpp.obj"
-  "CMakeFiles/temp.dir/clothes.cpp.obj"
-  "CMakeFiles/temp.dir/library.cpp.obj"
   "CMakeFiles/temp.dir/main.cpp.obj"
-  "CMakeFiles/temp.dir/page.cpp.obj"
+  "CMakeFiles/temp.dir/source/account.cpp.obj"
+  "CMakeFiles/temp.dir/source/clothes.cpp.obj"
+  "CMakeFiles/temp.dir/source/library.cpp.obj"
+  "CMakeFiles/temp.dir/source/page.cpp.obj"
   "temp.exe"
   "temp.exe.manifest"
   "temp.lib"

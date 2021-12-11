@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Data/ClionProject/OOP/temp/clothes.cpp" "D:/Data/ClionProject/OOP/temp/cmake-build-debug/CMakeFiles/temp.dir/Clothes.cpp.obj"
-  "D:/Data/ClionProject/OOP/temp/page.cpp" "D:/Data/ClionProject/OOP/temp/cmake-build-debug/CMakeFiles/temp.dir/Page.cpp.obj"
-  "D:/Data/ClionProject/OOP/temp/account.cpp" "D:/Data/ClionProject/OOP/temp/cmake-build-debug/CMakeFiles/temp.dir/account.cpp.obj"
-  "D:/Data/ClionProject/OOP/temp/library.cpp" "D:/Data/ClionProject/OOP/temp/cmake-build-debug/CMakeFiles/temp.dir/library.cpp.obj"
   "D:/Data/ClionProject/OOP/temp/main.cpp" "D:/Data/ClionProject/OOP/temp/cmake-build-debug/CMakeFiles/temp.dir/main.cpp.obj"
+  "D:/Data/ClionProject/OOP/temp/source/account.cpp" "D:/Data/ClionProject/OOP/temp/cmake-build-debug/CMakeFiles/temp.dir/source/account.cpp.obj"
+  "D:/Data/ClionProject/OOP/temp/source/clothes.cpp" "D:/Data/ClionProject/OOP/temp/cmake-build-debug/CMakeFiles/temp.dir/source/clothes.cpp.obj"
+  "D:/Data/ClionProject/OOP/temp/source/library.cpp" "D:/Data/ClionProject/OOP/temp/cmake-build-debug/CMakeFiles/temp.dir/source/library.cpp.obj"
+  "D:/Data/ClionProject/OOP/temp/source/page.cpp" "D:/Data/ClionProject/OOP/temp/cmake-build-debug/CMakeFiles/temp.dir/source/page.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

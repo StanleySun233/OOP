@@ -2,7 +2,7 @@
 // Created by 70929 on 2021/12/11.
 //
 
-#include "library.h"
+#include "../header/library.h"
 
 
 int Library::getN()

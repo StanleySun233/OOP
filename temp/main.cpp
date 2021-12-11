@@ -1,5 +1,5 @@
-#include "clothes.h"
-#include "page.h"
+#include "header/clothes.h"
+#include "header/page.h"
 using namespace std;
 
 

@@ -118,78 +118,6 @@ temp\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\build
 .PHONY : temp\fast
 
-account.obj: account.cpp.obj
-.PHONY : account.obj
-
-# target to build an object file
-account.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\account.cpp.obj
-.PHONY : account.cpp.obj
-
-account.i: account.cpp.i
-.PHONY : account.i
-
-# target to preprocess a source file
-account.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\account.cpp.i
-.PHONY : account.cpp.i
-
-account.s: account.cpp.s
-.PHONY : account.s
-
-# target to generate assembly for a file
-account.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\account.cpp.s
-.PHONY : account.cpp.s
-
-clothes.obj: clothes.cpp.obj
-.PHONY : clothes.obj
-
-# target to build an object file
-clothes.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\clothes.cpp.obj
-.PHONY : clothes.cpp.obj
-
-clothes.i: clothes.cpp.i
-.PHONY : clothes.i
-
-# target to preprocess a source file
-clothes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\clothes.cpp.i
-.PHONY : clothes.cpp.i
-
-clothes.s: clothes.cpp.s
-.PHONY : clothes.s
-
-# target to generate assembly for a file
-clothes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\clothes.cpp.s
-.PHONY : clothes.cpp.s
-
-library.obj: library.cpp.obj
-.PHONY : library.obj
-
-# target to build an object file
-library.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\library.cpp.obj
-.PHONY : library.cpp.obj
-
-library.i: library.cpp.i
-.PHONY : library.i
-
-# target to preprocess a source file
-library.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\library.cpp.i
-.PHONY : library.cpp.i
-
-library.s: library.cpp.s
-.PHONY : library.s
-
-# target to generate assembly for a file
-library.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\library.cpp.s
-.PHONY : library.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -214,29 +142,101 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\main.cpp.s
 .PHONY : main.cpp.s
 
-page.obj: page.cpp.obj
-.PHONY : page.obj
+source\account.obj: source\account.cpp.obj
+.PHONY : source\account.obj
 
 # target to build an object file
-page.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\page.cpp.obj
-.PHONY : page.cpp.obj
+source\account.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\account.cpp.obj
+.PHONY : source\account.cpp.obj
 
-page.i: page.cpp.i
-.PHONY : page.i
+source\account.i: source\account.cpp.i
+.PHONY : source\account.i
 
 # target to preprocess a source file
-page.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\page.cpp.i
-.PHONY : page.cpp.i
+source\account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\account.cpp.i
+.PHONY : source\account.cpp.i
 
-page.s: page.cpp.s
-.PHONY : page.s
+source\account.s: source\account.cpp.s
+.PHONY : source\account.s
 
 # target to generate assembly for a file
-page.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\page.cpp.s
-.PHONY : page.cpp.s
+source\account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\account.cpp.s
+.PHONY : source\account.cpp.s
+
+source\clothes.obj: source\clothes.cpp.obj
+.PHONY : source\clothes.obj
+
+# target to build an object file
+source\clothes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\clothes.cpp.obj
+.PHONY : source\clothes.cpp.obj
+
+source\clothes.i: source\clothes.cpp.i
+.PHONY : source\clothes.i
+
+# target to preprocess a source file
+source\clothes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\clothes.cpp.i
+.PHONY : source\clothes.cpp.i
+
+source\clothes.s: source\clothes.cpp.s
+.PHONY : source\clothes.s
+
+# target to generate assembly for a file
+source\clothes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\clothes.cpp.s
+.PHONY : source\clothes.cpp.s
+
+source\library.obj: source\library.cpp.obj
+.PHONY : source\library.obj
+
+# target to build an object file
+source\library.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\library.cpp.obj
+.PHONY : source\library.cpp.obj
+
+source\library.i: source\library.cpp.i
+.PHONY : source\library.i
+
+# target to preprocess a source file
+source\library.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\library.cpp.i
+.PHONY : source\library.cpp.i
+
+source\library.s: source\library.cpp.s
+.PHONY : source\library.s
+
+# target to generate assembly for a file
+source\library.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\library.cpp.s
+.PHONY : source\library.cpp.s
+
+source\page.obj: source\page.cpp.obj
+.PHONY : source\page.obj
+
+# target to build an object file
+source\page.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\page.cpp.obj
+.PHONY : source\page.cpp.obj
+
+source\page.i: source\page.cpp.i
+.PHONY : source\page.i
+
+# target to preprocess a source file
+source\page.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\page.cpp.i
+.PHONY : source\page.cpp.i
+
+source\page.s: source\page.cpp.s
+.PHONY : source\page.s
+
+# target to generate assembly for a file
+source\page.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\page.cpp.s
+.PHONY : source\page.cpp.s
 
 # Help Target
 help:
@@ -247,21 +247,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... temp
-	@echo ... account.obj
-	@echo ... account.i
-	@echo ... account.s
-	@echo ... clothes.obj
-	@echo ... clothes.i
-	@echo ... clothes.s
-	@echo ... library.obj
-	@echo ... library.i
-	@echo ... library.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... page.obj
-	@echo ... page.i
-	@echo ... page.s
+	@echo ... source/account.obj
+	@echo ... source/account.i
+	@echo ... source/account.s
+	@echo ... source/clothes.obj
+	@echo ... source/clothes.i
+	@echo ... source/clothes.s
+	@echo ... source/library.obj
+	@echo ... source/library.i
+	@echo ... source/library.s
+	@echo ... source/page.obj
+	@echo ... source/page.i
+	@echo ... source/page.s
 .PHONY : help
 
 
