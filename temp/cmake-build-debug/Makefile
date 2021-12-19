@@ -238,29 +238,29 @@ source\page.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\page.cpp.s
 .PHONY : source\page.cpp.s
 
-source\show.obj: source\show.cpp.obj
-.PHONY : source\show.obj
+source\showWindows.obj: source\showWindows.cpp.obj
+.PHONY : source\showWindows.obj
 
 # target to build an object file
-source\show.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\show.cpp.obj
-.PHONY : source\show.cpp.obj
+source\showWindows.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\showWindows.cpp.obj
+.PHONY : source\showWindows.cpp.obj
 
-source\show.i: source\show.cpp.i
-.PHONY : source\show.i
+source\showWindows.i: source\showWindows.cpp.i
+.PHONY : source\showWindows.i
 
 # target to preprocess a source file
-source\show.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\show.cpp.i
-.PHONY : source\show.cpp.i
+source\showWindows.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\showWindows.cpp.i
+.PHONY : source\showWindows.cpp.i
 
-source\show.s: source\show.cpp.s
-.PHONY : source\show.s
+source\showWindows.s: source\showWindows.cpp.s
+.PHONY : source\showWindows.s
 
 # target to generate assembly for a file
-source\show.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\show.cpp.s
-.PHONY : source\show.cpp.s
+source\showWindows.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp.dir\source\showWindows.cpp.s
+.PHONY : source\showWindows.cpp.s
 
 # Help Target
 help:
@@ -286,9 +286,9 @@ help:
 	@echo ... source/page.obj
 	@echo ... source/page.i
 	@echo ... source/page.s
-	@echo ... source/show.obj
-	@echo ... source/show.i
-	@echo ... source/show.s
+	@echo ... source/showWindows.obj
+	@echo ... source/showWindows.i
+	@echo ... source/showWindows.s
 .PHONY : help
 
 

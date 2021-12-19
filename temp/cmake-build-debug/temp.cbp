@@ -94,7 +94,7 @@
 		<Unit filename="D:/Data/ClionProject/OOP/temp/header/page.h">
 			<Option target="temp"/>
 		</Unit>
-		<Unit filename="D:/Data/ClionProject/OOP/temp/header/show.h">
+		<Unit filename="D:/Data/ClionProject/OOP/temp/header/showWindows.h">
 			<Option target="temp"/>
 		</Unit>
 		<Unit filename="D:/Data/ClionProject/OOP/temp/main.cpp">
@@ -112,7 +112,7 @@
 		<Unit filename="D:/Data/ClionProject/OOP/temp/source/page.cpp">
 			<Option target="temp"/>
 		</Unit>
-		<Unit filename="D:/Data/ClionProject/OOP/temp/source/show.cpp">
+		<Unit filename="D:/Data/ClionProject/OOP/temp/source/showWindows.cpp">
 			<Option target="temp"/>
 		</Unit>
 		<Unit filename="D:/Data/ClionProject/OOP/temp/CMakeLists.txt">

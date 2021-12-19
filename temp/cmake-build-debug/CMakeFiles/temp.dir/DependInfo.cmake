@@ -13,7 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Data/ClionProject/OOP/temp/source/clothes.cpp" "D:/Data/ClionProject/OOP/temp/cmake-build-debug/CMakeFiles/temp.dir/source/clothes.cpp.obj"
   "D:/Data/ClionProject/OOP/temp/source/library.cpp" "D:/Data/ClionProject/OOP/temp/cmake-build-debug/CMakeFiles/temp.dir/source/library.cpp.obj"
   "D:/Data/ClionProject/OOP/temp/source/page.cpp" "D:/Data/ClionProject/OOP/temp/cmake-build-debug/CMakeFiles/temp.dir/source/page.cpp.obj"
-  "D:/Data/ClionProject/OOP/temp/source/show.cpp" "D:/Data/ClionProject/OOP/temp/cmake-build-debug/CMakeFiles/temp.dir/source/show.cpp.obj"
+  "D:/Data/ClionProject/OOP/temp/source/showWindows.cpp" "D:/Data/ClionProject/OOP/temp/cmake-build-debug/CMakeFiles/temp.dir/source/showWindows.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
