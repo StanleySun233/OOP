@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Data/ClionProject/OOP/LessonEight/proj1/Polygon.h
+iostream
+D:/Data/ClionProject/OOP/LessonEight/proj1/iostream
+math.h
+D:/Data/ClionProject/OOP/LessonEight/proj1/math.h
+
+D:/Data/ClionProject/OOP/LessonEight/proj1/main.cpp
+Polygon.h
+D:/Data/ClionProject/OOP/LessonEight/proj1/Polygon.h
+

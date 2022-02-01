@@ -11,11 +11,11 @@
 
 # Experience List
 
-## 1.[C++简单程序设计与改错](/LessonOne/)
-## 2.[类和对象](/LessonTwo/)
-## 3.[类和对象进一步学习](/LessonThree/)
-## 4.[运算符重载](/LessonFour/)
-## 5.[类的静态成员](/LessonFive/)
-## 6.[继承与派生的声明方式](/LessonSix/)
-## 7.[派生类成员的访问](/LessonSeven/)
-## 8.[多态性与虚函数](/LessonEight/)
+## 1.[C++简单程序设计与改错](/Lesson1/)
+## 2.[类和对象](/Lesson2/)
+## 3.[类和对象进一步学习](/Lesson3/)
+## 4.[运算符重载](/Lesson4/)
+## 5.[类的静态成员](/Lesson5/)
+## 6.[继承与派生的声明方式](/Lesson6/)
+## 7.[派生类成员的访问](/Lesson7/)
+## 8.[多态性与虚函数](/Lesson8/)
